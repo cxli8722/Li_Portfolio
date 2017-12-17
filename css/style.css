@@ -1,0 +1,88 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+img.responsive-img, video.responsive-video{
+ border: 5px white solid;
+ border-radius: 100%;
+ border-bottom: 30px;
+}
+
+p {
+  line-height: 2rem;
+}
+h4 {
+  margin-top: 70px;
+}
+#navbar-fixed {
+  margin-bottom: 70px;
+
+}
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 280px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px; max-height: 300px;) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+footer img.responsive-img, video.responsive-video{
+ border: 5px white solid;
+ border-radius: 100%;
+ border-bottom: 30px;
+ max-width: 10%;
+}
+footer.page-footer {
+  font-size: 60%;
+}
+footer h3 {
+ margin-top: 15;
+ font-size: 100%;
+}
+
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  height: auto;
+}
+
+

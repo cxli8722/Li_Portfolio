@@ -15,6 +15,7 @@ img.responsive-img, video.responsive-video{
  border: 5px white solid;
  border-radius: 100%;
  border-bottom: 30px;
+ max-width: 20%;
 }
 
 p {
@@ -61,7 +62,7 @@ footer img.responsive-img, video.responsive-video{
  border: 5px white solid;
  border-radius: 100%;
  border-bottom: 30px;
- max-width: 10%;
+ max-width: 20%;
 }
 footer.page-footer {
   font-size: 60%;
